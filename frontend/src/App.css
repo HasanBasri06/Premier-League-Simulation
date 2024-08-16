@@ -1,0 +1,93 @@
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 10px;
+    box-sizing: content-box;
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    background-color: white;
+}
+
+main .mainScreen {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+main .mainColumn {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+}
+
+main .mainScreenContent {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #0e1514;
+    background-color: white;
+
+}
+
+main .mainController {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .mainController .calendarController {
+    display: flex;
+    gap: 10px;
+}
+
+main .mainController .calendarController button, #playAllBtn  {
+    all: unset;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #22c55e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main .tableTitle {
+    height: 40px;
+    background-color: #0e1514;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table tr {
+    height: 40px;
+    font-weight: 600;
+}
