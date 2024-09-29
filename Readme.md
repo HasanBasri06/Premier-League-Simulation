@@ -1,16 +1,3 @@
-# Insider Değerlendirme Projesi
-## Premier Lig Similasyonu
-
-<br>
-Proje Rest Api olarak tasarlanmıştır. Backend teknolojisi olarak Laravel ve frontend teknolojisi olarak da VueJs kullanılmıştır, UI tasarımı için pure css tercih edilmiştir. <br><br>
-
-> ![info](/doc/doc-info-25px.png) Uygulama tekrarlanabilirlik durumu
-> 
-> Proje Vue Js ile yazıldığından sayfa her yüklemede tekrar takım oluşturup her hafta tekrar maç oynattığından sürekli tahmin yürütme hatası oluşuyordu bu durumu her sayfa yenileniğinde/ilk açıldığında maçlar oynatılmış mı? kontrolünü sağlayarak bu durumun önüne geçildi.
-> 
-> Burada vue js class bindings özelliğini kullanarak ligi başlatma ve diğer haftaya geçişi engelleme/izin verme drumlarını da kontrol ettim
-
-
 ### Genel Bakış
 Projemiz 'Premier League' tahmin similasyon uygulamasıdır. 4 takım 38 hafta boyunca arasında maçlar yapmaktadır. Bu maçların sonucunda her bir takımın gücü belirlenmektedir; <br>
 
