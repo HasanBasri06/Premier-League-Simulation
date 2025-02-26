@@ -15,7 +15,7 @@ Tukarıda belirtilen maddeler takımın her hafta oynadığı maçlar sonucu ort
 Proje sıkıştırılmış dosya olarak gönderilmektedir. Dosyadan çıkart diyerek projeyi laravel projelerinizi sakladığınız 'workspace'in içine koyabilirsiniz.
 
 ##### Back-End Kurulum
-* Localinizde mysql veritabanınıza insider adında bir vertabanı oluşturun.
+* Localinizde oluşturduğunuz veritabanını .env dosyasında belirtin
 * Veritabanında tabloların oluşması için `php artisan migrate` komutunu terminalinizde çalıştırmanız gerekmektedir.
 * Projemizde takımlar, tabloda hazır bir şekilde **gelmemektedir**. Endişelenmeye gerek yok :) sizin için takımları hazırladım. `php artisan db:seed` komutunu terminalinizde çalıştırmanız yeterli olacaktır, bu komut sizin için 4 takımı hazırlayacaktır.
 * Ve son adım olarak `php artisan serve` komutunu terminal üzerinde çalıştırdığınızda api'nız çalışır duruma gelecektir.
